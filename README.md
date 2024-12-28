@@ -17,15 +17,15 @@ The primary objectives of the project are:
 
 This repository contains the following key components:
 
-- **`eight-for-loops.py`:** Automates the process of extracting structured information from web articles while testing multiple configurations. It iterates through combinations of parameters like chunk size, embedding models, and LLM settings, processes articles through a defined pipeline, and saves results in JSON format for evaluation.
+- **[`eight-for-loops.py`](./eight-for-loops.py):** Automates the process of extracting structured information from web articles while testing multiple configurations. It iterates through combinations of parameters like chunk size, embedding models, and LLM settings, processes articles through a defined pipeline, and saves results in JSON format for evaluation.
 
-- **`Scoring_LLM.ipynb`:** Evaluates the performance of LLMs by comparing outputs to human-generated reference data using metrics such as cosine similarity, BLEU, and ROUGE. It calculates a final score to measure alignment with reference outputs.
+- **[`Scoring_LLM.ipynb`](./Scoring_LLM.ipynb):** Evaluates the performance of LLMs by comparing outputs to human-generated reference data using metrics such as cosine similarity, BLEU, and ROUGE. It calculates a final score to measure alignment with reference outputs.
 
-- **`Score_ratio-LLM-Comparison.ipynb`:** Calculates the "Score Ratio" (mean divided by standard deviation) for various metrics across LLMs, identifies the best-performing model for specific entities and metrics, and outputs a detailed comparison.
+- **[`Score_ratio-LLM-Comparison.ipynb`](./Score_ratio-LLM-Comparison.ipynb):** Calculates the "Score Ratio" (mean divided by standard deviation) for various metrics across LLMs, identifies the best-performing model for specific entities and metrics, and outputs a detailed comparison.
 
-- **`Comparison_Plot.ipynb`:** Extracts score data for up to four configurations and generates comparative bar charts for various entities, enabling easy visualization of performance differences.
+- **[`Comparison_Plot.ipynb`](./Comparison_Plot.ipynb):** Extracts score data for up to four configurations and generates comparative bar charts for various entities, enabling easy visualization of performance differences.
 
-- **`M2PI_Team 7_Final Report.pdf`:** A detailed explanation of the project’s objectives, methodologies, results, and findings. It delves into the technical aspects of the pipeline, evaluation metrics, and overall performance of different LLMs.
+- **[`M2PI_Team7_FinalReport.pdf`](./M2PI_Team7_FinalReport.pdf):** A detailed explanation of the project’s objectives, methodologies, results, and findings. It delves into the technical aspects of the pipeline, evaluation metrics, and overall performance of different LLMs.
 
 ---
 
